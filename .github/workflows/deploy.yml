@@ -25,10 +25,8 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.email hengquan0204@gmail.com     
-          git config --global user.name keeganchua
-          git remote add origin-with-token https://$GITHUB_TOKEN@github.com/${{ github.repository }}
-          npx gh-pages -d build -r origin-with-token
-        env:
-          CI: true
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
