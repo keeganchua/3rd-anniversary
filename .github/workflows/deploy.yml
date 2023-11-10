@@ -26,8 +26,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          git config --global user.email hengquan0204@gmail.com
+          git config --global user.email hengquan0204@gmail.com     
           git config --global user.name keeganchua
           npx gh-pages -d build
-      env:
-        CI: true
+        env:
+          CI: true
