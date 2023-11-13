@@ -27,16 +27,20 @@ function Question1({ setScore, score }) {
 
     const answerOptions = ['Monti', 'Altro Zafferano', 'Lavo', 'UNA at The Alkaff Mansion'];
 
-    return answerOptions.map((answer, index) => (
-      <button
-        key={index}
-        onClick={() => handleAnswerClick(answer)}
-        style={{ margin: '0 10px' }}
-      >
-        {answer}
-      </button>
-    ));
-  };
+    return (
+    <div>
+      {answerOptions.map((answer, index) => (
+        <button
+          key={index}
+          onClick={() => handleAnswerClick(answer)}
+          style={{ display: 'block', marginBottom: '10px' }}
+        >
+          {answer}
+        </button>
+      ))}
+    </div>
+  );
+};
 
   return (
     <div className="centered">

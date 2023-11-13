@@ -27,16 +27,20 @@ function Question4({ setScore, score }) {
 
     const answerOptions = ['12 Sep 2020', '14 Sep 2020', '20 Sep 2020', '21 Sep 2020'];
 
-    return answerOptions.map((answer, index) => (
-      <button
-        key={index}
-        onClick={() => handleAnswerClick(answer)}
-        style={{ margin: '0 10px' }}
-      >
-        {answer}
-      </button>
-    ));
-  };
+    return (
+    <div>
+      {answerOptions.map((answer, index) => (
+        <button
+          key={index}
+          onClick={() => handleAnswerClick(answer)}
+          style={{ display: 'block', marginBottom: '10px' }}
+        >
+          {answer}
+        </button>
+      ))}
+    </div>
+  );
+};
 
   return (
     <div className="centered">
