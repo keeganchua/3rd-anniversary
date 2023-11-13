@@ -1,0 +1,32 @@
+/* Home.css */
+
+.centered {
+  display: flex;
+  flex-direction: column; /* Ensure a vertical layout */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 20px; /* Adjust the top padding as needed */
+  text-align: center;
+}
+
+.centered h1 {
+  font-family: 'Kaushan Script', cursive;
+  margin: 0px; /* Reset margin to zero */
+  /* Additional styling for the title */
+}
+
+.nav-links {
+  margin-top: 10px; /* Add margin between the title and links */
+}
+
+.nav-link {
+  color: #007bff; /* Set the link color */
+  text-decoration: none; /* Remove the default underline */
+  font-weight: bold; /* Optionally set the font weight */
+  margin: 0 10px; /* Add margin between links */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
