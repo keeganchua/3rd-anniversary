@@ -1,6 +1,7 @@
 // Message.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Message.css';
 
 function Message() {
@@ -23,6 +24,9 @@ function Message() {
 		<br />
 		Yours truly, grey kitty.
       </p>
+	  <button>
+        <Link to="/">Back to Home</Link>
+      </button>
     </div>
   );
 }
