@@ -10,7 +10,7 @@ function Message() {
       <p>
         Bello bb, we are 3!
         <br />
-		I am deeply grateful for the love and care you provided me for these <br />3 years. Without you, I don't think I would be able to survive this harsh<br /> early adulting period. So, thank you bb!
+		I am deeply grateful for the love and care you provided me<br /> for these 3 years. Without you, I don't think I would be able<br /> to survive this harsh early adulting period. So, thank you<br /> bb!
       </p>
     </div>
   );

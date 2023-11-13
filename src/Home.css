@@ -20,6 +20,7 @@ body {
   font-family: 'Agbalumo', cursive;
   margin: 0px; /* Reset margin to zero */
   color: white; /* Replace with the color code or name you want */
+  font-size: 30px; /* Adjust the font size as needed */
 }
 
 .nav-links {

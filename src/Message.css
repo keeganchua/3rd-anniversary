@@ -18,16 +18,13 @@ body {
 h2 {
   font-family: 'Agbalumo', cursive; 
   color: white; /* Replace with the color code or name you want */
+  font-size: 30px; /* Adjust the font size as needed */
 }
 
 p {
   font-family: 'Agbalumo', cursive; 
   color: white; /* Replace with the color code or name you want */
   text-align: left; /* Align the text to the left */
-  margin-left: -160px; /* Add some left margin for indentation */
+  margin-left: -10px; /* Add some left margin for indentation */
   white-space: pre-line; /* Preserve spaces and line breaks */
-}
-
-.spacing {
-  margin-top: -100px; /* Adjust the margin-top as needed for spacing */
 }
