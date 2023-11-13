@@ -5,7 +5,7 @@ import './Message.css';
 
 function Message() {
   return (
-    <div className="centered">
+    <div className="centeredM">
       <h2>Happy Anniversary my bb kitty :)</h2>
       <p>
         Bello bb, we are 3!

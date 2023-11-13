@@ -5,7 +5,7 @@ body {
   background-color: white; /* Replace with your desired color code */
 }
 
-.centered {
+.centeredM {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,12 +13,13 @@ body {
   height: 100vh;
   padding-top: 20px;
   text-align: center;
+  margin-top: -150px; /* Adjust the negative margin as needed */
 }
 
 h2 {
   font-family: 'Agbalumo', cursive; 
   color: white; /* Replace with the color code or name you want */
-  font-size: 15px; /* Adjust the font size as needed */
+  font-size: 25px; /* Adjust the font size as needed */
 }
 
 p {
