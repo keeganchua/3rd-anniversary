@@ -1,0 +1,33 @@
+/* Message.css */
+
+body {
+  margin: 0; /* Remove default body margin */
+  background-color: white; /* Replace with your desired color code */
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Agbalumo', cursive; 
+  color: white; /* Replace with the color code or name you want */
+}
+
+p {
+  font-family: 'Agbalumo', cursive; 
+  color: white; /* Replace with the color code or name you want */
+  text-align: left; /* Align the text to the left */
+  margin-left: -160px; /* Add some left margin for indentation */
+  white-space: pre-line; /* Preserve spaces and line breaks */
+}
+
+.spacing {
+  margin-top: -100px; /* Adjust the margin-top as needed for spacing */
+}
